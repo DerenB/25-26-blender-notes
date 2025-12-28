@@ -3,6 +3,23 @@
 - Select Node, hit `F`
 - Creates box with label at top
 
+
+
+# CREATE NODE GROUP
+
+- Select all nodes except the output node (Material Output)
+- Join together: `CTRL + G`
+- Hit `TAB` to toggle between node group and node view
+- Assign input values
+  - Drag points off the "group input" node into points in the material
+  - Can change settings for input in the "group" tab on the right
+  - Scale
+    - Set type to "float"
+    - Set default to 1
+  - Drag as many values as you want
+
+
+
 # Set up the Preview Sphere
 
 - Add an icosphere
