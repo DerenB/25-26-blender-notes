@@ -36,7 +36,20 @@
 - Create object
 - Give object the basic geometry node setup
 ![Basic](Objects_on_plane_Weight_Map__Basic.PNG)
-
+- Drag Density Factor out of "Distribute Points on Faces" into the Group Input
+- Create Weight map
+  - Select object
+  - Click "Data" tab in properties
+  - Create a new Vertex Group with the "+"
+  - Name it
+- Update density
+  - Go to the Modifier tab for the object
+  - Click "Input Attribute Toggle" button (looks like Denmark flag)
+  - Click the blank bar and select the created input group
+- Paint on the object
+  - Open the "Weight Paint" tab (same drop down as object mode/edit mode)
+  - Paint
+  - Won't work on flat plane, it needs vertex points to work
 
 
 
