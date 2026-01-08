@@ -14,10 +14,10 @@
   - Set thickness
   - Turn on "Fill"
   - Turn on "Only Rim"
-- Bevel
+- Bevel   
   - Add Bevel modifier
-  - Set Amount
-  - Set Segments
+  - Set Amount (demo did 0.009)
+  - Set Segments (demo did 3)
 - Use modifiers in that order
   - Edgesplit
   - Solidify
