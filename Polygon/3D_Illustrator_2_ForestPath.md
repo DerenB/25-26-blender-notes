@@ -1,4 +1,9 @@
 
+# Increase Vertices Size
+
+- Edit > Preferences > Themes > 3D Viewport
+- Vertex Size 
+
 # Create Dead Tree
 
 - Get down to 1 vertex
@@ -29,3 +34,36 @@
   - show side panel `n`
   - Adjust Mean Radius X/Y
   - Can adjust with `CTRL+A`
+
+
+
+# Terrain
+
+- Create Plane
+- Sub divide 4 times
+- Extrude up
+- Hide bottom vertices
+- Create River
+  - Select right 4 rows of vertices
+  - Drag downwards 
+- Triangulate Faces
+  - Select all
+  - Face > Triangulate
+- Add Bumps to terrain
+- Can hide vertices so they aren't affected by editing
+  - Hide the bottom of the platform so it stays flat
+  - Hide the edge perimeter so it stays straight
+- Adjust river x-axis to create uneven edge
+- Add random adjustments
+  - Turn on proportional editing `O`
+  - Set to Random
+- Create road
+  - unhide everything and turn off proportional editing
+  - Select 4 columns in the middle
+  - Scale `S` in the `Z` axis
+  - Drag to 0 or hit `0`
+  - This will make them uniformly flat
+  - Lower into the ground a bit
+
+
+
