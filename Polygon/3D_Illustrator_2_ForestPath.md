@@ -64,6 +64,57 @@
   - Drag to 0 or hit `0`
   - This will make them uniformly flat
   - Lower into the ground a bit
+- Recalculate Normals
+  - Done just to be safe
+  - Edit Mode
+  - Select all `A`
+  - Recalculate `SHIFT + N`
+
+
+
+# Create Water
+
+- Add a plane
+- Position it just inside the edge of the terrain and just below the river bed
+- Add 3 loop cuts (4 sections)
+- Subdivide a few times
+- Extrude the water up
+- Recalculate Normals
+  - Done just to be safe
+  - Edit Mode
+  - Select all `A`
+  - Recalculate `SHIFT + N`
+
+
+
+### Vertex Group
+
+- Select top face vertices
+- Properties > Data
+  - Lets you explore the data that is within the object
+- Vertex Groups > "+" icon
+  - Assign the vertices to it
+  - Can test it by deselecting the vertices, then clicking "select", should select all of them
+  - Name the group
+- Object Mode Displace
+  - Object Mode
+  - Add modifier "Displace"
+  - Assign the previously created vertex group
+  - Set Direction to "Z"
+  - Create Texture
+    - Within modifier > New
+    - Rename the Texture
+  - Edit Texture
+    - In Properties > Texture
+    - Set Type to "Clouds"
+    - Set Size to 1
+  - Adjust bump height
+    - Back in Displace Modifier
+    - Set the Strength value
+    - Set to 0.460
+  - Triangulate Surface
+    - Select top surface group with the vertex group
+    - `CTRL + T` to triangulate
 
 
 
