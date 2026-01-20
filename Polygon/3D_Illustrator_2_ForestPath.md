@@ -118,3 +118,25 @@
 
 
 
+# Modify Road
+
+- Select the road faces
+- Duplicate and separate the road
+- Add waves/grooves to the side of the road
+- Extrude it upwards
+- Recalculate Normals just in case
+
+
+
+### Create Lines in Road
+
+- Add a plane
+- Shape it into a line in edit mode
+- Duplicate it with modifier
+  - Use "Array" modifier
+  - Set Count
+  - Set relative Offset Y (to copy over the y axis)
+- Solidify
+  - Add Solidify modifier
+  - 
+
