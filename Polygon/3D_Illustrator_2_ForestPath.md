@@ -138,5 +138,19 @@
   - Set relative Offset Y (to copy over the y axis)
 - Solidify
   - Add Solidify modifier
-  - 
+
+
+
+# Add Assets
+
+- Snapping Objects
+  - Turn on Sanp at top
+  - Set to Face Project
+  - Hold `CTRL` to disable snapping while holding an object
+- Track Ball Rotate
+  - Hit `R` twice
+- Add Rocks how you want
+- Add trees how you want
+- Add dead trees how you want
+
 
