@@ -184,3 +184,16 @@
   - More angled, low to ground angle, is more like 2-to-1
 
 
+
+# Render & Lights
+
+- Limit Render Preview
+  - `CTRL + B`
+  - Draw around the camera bounds
+- Render Settings
+  - Turn on Denoise
+  - Set to OptiX
+- Add a sun
+- Add an area light
+
+
