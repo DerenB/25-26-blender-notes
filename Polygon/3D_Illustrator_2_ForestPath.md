@@ -154,3 +154,33 @@
 - Add dead trees how you want
 
 
+
+# Materials
+
+- Water Material
+  - Set Transmission to 1
+  - Set Roughness to 0.2
+  - Set IQR to 1.333
+
+
+
+# Create Isometric Camera
+
+- Return cursor to world origin
+  - `SHIFT + S` > Cursor to World Origin
+- Add a Camera
+- Set Camera Rotation
+  - X-Axis: 54.7
+  - Z-Axis: 45
+- Change Camera to Orthographic
+  - Done in the camera properties
+- Camera distance
+  - Moving the camera does nothing in orthographic
+  - Have to set the "Orthographic Scale", example is 14
+- Ratio
+  - 4-to-3 is his most common isometric camera angle
+  - The rotation 54.7-to-45 is the same 4-3 ratio
+  - More on top angle is 1-to-1
+  - More angled, low to ground angle, is more like 2-to-1
+
+
