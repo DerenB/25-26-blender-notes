@@ -197,3 +197,53 @@
 - Add an area light
 
 
+
+# Texture Painting Puddles
+
+- Unwrap (UV Editor)
+  - Need to unwrap a 3D object into a 2D one to texture Paint it
+  - Select All > Smart Unwrap with `U` > Smart Unwrap > Use default settings
+- Set up
+  - Set left screen to Image Editor > Set to "Paint" mode
+    - Can split left screen to add "shader editor"
+  - Right Screen: Select object > Object Mode into Texture Mode
+- Create Texture
+  - In Texture Mode > Top > Texture Slot 
+  - Should be "no textures", click "+" to create one
+  - Use "Roughness" for the painting
+  - Set to 2k textures 2048x2048
+  - Set color, 0 for rough 1 for smooth
+  - Set Value to 0.7
+- Painting
+  - Cycles does not automatically refresh texture painting
+  - Just use material preview mode
+- Set Brush Falloff / Blue
+  - Properties > Tool > Falloff
+  - Can select a default curve shape, like round preset
+- SAVE THE TEXTURE
+  - texture image is not automatically saved with `CTRL + S`
+  - Embed image
+    - Image > Pack
+    - This packs the image into the blender file
+    - Still need to manually save the file everytime
+  - View Embedded files
+    - Scene Window
+    - Display Mode > Blender File
+      - Open Images tab
+    - Original screen is View Layer
+
+
+
+# Rendering
+
+- Cycles
+- GPU Compute
+- Samples 4,096
+- Denoise
+  - OptiX
+  - Albedo and Normal
+- Color Management (this example)
+  - Filmic
+  - Medium High Contrast
+
+
