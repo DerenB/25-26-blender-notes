@@ -34,8 +34,46 @@
   - Going into vertex select mode should show the new vertices in the middle
 - Round the Boards
   - Select all of the middle vertices
-  - Move them outwards, so the end is a zig zag shape
+  - Move them outwards in Y direction, so the end is a zig zag shape
   - `CTRL + Shift + B` to bevel them, 4-5 times, makes the ends of the boards round
+- Stagger the board
+  - Select 3-4 boards to move
+  - Deselect everything except the edges of the boards `CTRL + LMB Drag`
+  - Move back
+- Extrude Boards Down
+- Fix face orientation `SHIFT + N`
+
+
+
+# Bottom Floating Platform
+
+- Add a plane
+- Widen it to width
+- Extrude down
+- Bevel Corners
+  - Can select the 4 edges with `CTRL + Alt LMB`
+- Double check face orientation
+
+
+
+# Top Beam Platform
+
+- Select top of the walls
+- Duplicate `shift + D` and separate `p`
+- Select new duplicate in edit mode
+- Extrude Upwards
+- Scale outwards `ALT + S` and do it evenly with second `S` click
+
+
+
+# Bevel Floor Boards
+
+- Add bevel modifier to the floor boards
+- Settings (whatever looks right):
+  - Amount: 0.015
+  - Segments: 3
+  - Geometry > Miter Outer: Arc
+  - Shading > Harden Normals: Checked
 
 
 
