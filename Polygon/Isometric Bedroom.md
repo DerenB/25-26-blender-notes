@@ -82,7 +82,10 @@
 
 # Cut a Window
 
-
+- Move the origin point to the plane
+  - Select the plane that will get the window
+  - Select the face
+  - `SHIFT + S` > Cursor to Selected
 
 
 
