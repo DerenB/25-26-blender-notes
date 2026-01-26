@@ -74,6 +74,14 @@
   - Segments: 3
   - Geometry > Miter Outer: Arc
   - Shading > Harden Normals: Checked
+- Apply the modifier to every object (walls, ceiling, platform)
+  - Select every object, select floorboards last
+  - Can click "copy to selected" in the modifier menu
+
+
+
+# Cut a Window
+
 
 
 

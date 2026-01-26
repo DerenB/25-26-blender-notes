@@ -548,18 +548,23 @@
 
 - Create a new Blender instance for video editing
 - File > New > Video Editing
-- Set resolution before importing images
-  - Scene > Format > Resolution
+- Set Video Settings in Properties:
+  - Resolution:
+    - Output > Format
+  - Frame Rate
+    - Output > Format
+  - Frame Range
+    - Frame Start
+    - Frame End
 - Load in image sequence
   - `SHIFT + A` > Image/Sequence
   - Select all images and add
-- Set Frame Rate & End Frame
-  - Scane > Frame Range
 - Add Fade to black
   - `SHIFT + A` > Color
   - select color
   - `SHIFT + A` > Fade > Fade in
-- Set export settings
+- Set/Check export settings
+  - Properties > Output > Output
   - Frame Rate
   - Frame Range
   - Output folder
@@ -568,6 +573,9 @@
   - Video Codec H.264 fine
   - Perceptually Lossless good enough
   - Can set audio to "No Audio"
+
+
+744x1132
 
 
 
