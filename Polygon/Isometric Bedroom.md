@@ -80,12 +80,54 @@
 
 
 
-# Cut a Window
+# Create a Window
 
-- Move the origin point to the plane
+- Move the origin point to the plane where the window will be
   - Select the plane that will get the window
   - Select the face
   - `SHIFT + S` > Cursor to Selected
+- Go Back into Object Mode
+- Add Plane
+  - Rotate on X 90 degrees
+  - Adjust size and position
+- Duplicate Plane
+- Make one of the planes wider than the wall `E`
+- Add the BoolTool extension if not already
+- Add Hole
+  - Rename large block plane
+  - Add boolean modifier from BoolTool: `CTRL + -` (minus sign on numpad)
+  - Move Boolean modifier to above bevel modifier
+- Move First Window plane inset a bit into the wall
+
+
+
+### Window Edge
+
+- `CTRL + R` circle cut for bottom section of edge
+- `P` separate it out
+- Extrude it out
+- Copy bevel modifier to it
+
+
+
+### Window Frame
+
+- Inset the main pane
+- Separate the pane out
+- Extrude the remaining frame to size
+- Copy bevel to the frame
+
+
+
+### Combine Parts into One Object
+
+- Select the parts
+  - Window Pane
+  - Window Frame
+  - Window Edge
+- Select boolean invisible box last
+- `CTRL + P` > Object
+
 
 
 
