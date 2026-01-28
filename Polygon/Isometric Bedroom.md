@@ -99,8 +99,6 @@
   - Move Boolean modifier to above bevel modifier
 - Move First Window plane inset a bit into the wall
 
-
-
 ### Window Edge
 
 - `CTRL + R` circle cut for bottom section of edge
@@ -108,16 +106,12 @@
 - Extrude it out
 - Copy bevel modifier to it
 
-
-
 ### Window Frame
 
 - Inset the main pane
 - Separate the pane out
 - Extrude the remaining frame to size
 - Copy bevel to the frame
-
-
 
 ### Combine Parts into One Object
 
@@ -127,6 +121,53 @@
   - Window Edge
 - Select boolean invisible box last
 - `CTRL + P` > Object
+
+
+
+# Create the Bed
+
+- `SHIFT + RMB` the origin point somewhere into the room
+- Start with a plane
+- Turn it into a box with extrude
+- Create bed pillar with another plane
+  - Mirror modifier the bed posts around the bed
+  - Keep the bed/origin point the same so that the mirror works
+- Once height is all set, apply the modifier
+
+### Create Head Board
+
+- select inner edges of head pillars
+- Duplicate, `p` separate
+- Go out and into edit mode with the new edges
+- Select all > fill the faces
+- Adjust the height of the board
+- Subdivide the top edge
+- Drag the outside verteces down (make the board into a point)
+- `CTRL + SHIFT + B` to add a boolean and round the top
+- Thicken plane with Extrude
+- Duplicate > Separate > move to foot of bed
+- Adjust foot of bed board height
+
+### Mattress
+
+- Duplicate and separate the top face of the bed frame
+- Thicken with extrude
+- Adjust width and length to fit the bed
+- Loop Cuts
+  - Add a loop cut parallel to the bed near the bottom
+  - Add 2 loop cuts hamburger style around the mattress
+    - Move these 2 to the head and foot of the bed, more space than the bottom one
+  - Add 2 more loop cuts hotdog style
+    - Also move to edges of bed
+    - Can move by selecting the loop with `ALT` and move with `G`
+- Add Subdivision modifier, 2 divisions
+  - If bed too round, adjust where the loop cuts are
+
+### Bevels
+
+- Copy the same bevel modifier to the bed objects (not the mattress)
+- Shade smooth
+
 
 
 
