@@ -168,6 +168,95 @@
 - Copy the same bevel modifier to the bed objects (not the mattress)
 - Shade smooth
 
+### Combine
+
+- `CTRL + P` > Object
+- Sets up the parent
+
+
+
+
+# Nightstand
+
+- Add a plane
+- Extrude Upwards
+- Duplicate the top plane (don't separate)
+  - Widen and extrude up (table top)
+
+### Front Drawers
+
+- Select front face
+- Duplicate, separate
+- Bring up bottom edge
+- Add a circle cut in the middle
+- Separate the cut with `V`
+- Extrude Outwards
+- Bevel the outside edges
+- Extend table top to cover drawers
+- Copy over bevel modifier
+- Shade Smooth
+
+
+
+
+
+# Wall Painting
+
+- Add a plane
+- Set size in edit mode
+- Extrude out to create thickness
+- Inset to create the frame size
+- Extrude inwards to create the painting
+- Select the painting Face > separate with `Y`
+  - This way the bevel modifier won't apply to the painting, just the frame
+
+
+
+
+
+# Table Lamp
+
+- Move 3d cursor with `SHIFT + S`
+- Add a circle with 12 segments
+- Resize in edit mode
+- Extrude upwards 3 times
+- Create the shape of the lamp
+- add a bevel
+- Duplicate the top ring of vertices to create the lamp shade
+  - Delete the face within the ring `x` > faces only
+  - Extrude downwards
+- Add a light bulb optionally 
+- Parent together `CTRL + P`
+
+
+
+
+
+# Pillow
+
+- Add a plane
+- Shape into a rectangle
+- Loop cut so it's 2x3
+- Subdivide 3 times
+- Extrude up
+
+### Cloth Simulation
+
+- Properties > Physics > Cloth
+- Field weights
+  - Set Gravity to 0
+- Turn on pressure, set to 2
+- Play Animation to "inflate"
+- After playing to right size, apply cloth modifier
+- Add subdivision modifier 1
+- Shade Smooth
+
+
+
+
+
+# Blanket
+
 
 
 
