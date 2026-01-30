@@ -257,6 +257,29 @@
 
 # Blanket
 
+- Enable collision on the bed items
+  - Properties > Physics
+  - Mattress
+  - Head/Foot boards
+  - Bed Posts
+  - Bed Frame
+- Set up blanket shape
+  - Set to desired shape
+  - Add enough vertices with repeated subdivide
+  - The more vertices, the more cloth like
+  - Add volumne / thickness extrude
+- Move blanket into position
+- Set up Blanket physics settings
+  - Set animation frame to 1
+  - Enable Cloth
+  - Enable Pressure
+    - Set to 0.2
+  - Enable Collisions > Self Collisions
+
+
+0.011088
+
+
 
 
 
