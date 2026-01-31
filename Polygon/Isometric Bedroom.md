@@ -277,9 +277,24 @@
   - Enable Collisions > Self Collisions
 
 
-0.011088
 
 
+
+# Background
+
+- Add a plane at world origin
+
+
+
+
+
+# Lights
+
+- Window
+  - Add an emission material to the window pane
+- Background
+  - Add a far area light for wide light
+  - Add a second area light pointing at the ground brightly to light background
 
 
 
