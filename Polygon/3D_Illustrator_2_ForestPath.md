@@ -26,6 +26,18 @@
 
 
 
+# Create Rock
+
+- Add Cube
+- Add subdivide 1, Apply
+- Change shape
+  - Adjust height
+  - Bisect Tool
+    - Under the Knife Tool
+    - Hold `LMB` to select the bisect
+
+
+
 ### Skin Modifier
 
 - Add skin modifier to thicken vertices
