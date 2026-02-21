@@ -21,6 +21,14 @@
 - Texture Limit
   - Properties > Render > Simplify > Render
   - Set limit to 2048, should never be higher
+- Fast GI Approximation
+  - Properties > Render > Light Paths > Fast GI Approximation
+- Ray Tracing Bounces
+  - Properties > Render > Light Paths > Max Bounces
+  - Defaults to 12
+  - Can set to 5 or 6 ?
+
+
 
 ### Animations
 
@@ -30,6 +38,28 @@
   - Properties > Simplify > Culling
   - Enable both
   - Won't render things outside of the camera frame
+- Seed
+  - Properties > Render > Sampling > Advanced
+  - Click the CLOCK icon next to See
+  - Scrambling Distance: Automatic
+
+
+
+### No Change
+
+- Changing File Output
+  - Properties > Output > Output
+  - Default
+    - PNG
+    - RGB
+    - 16 Color Depth
+    - 15% Compression
+  - Test?
+    - OpenEXR
+    - Float (Half) Color Depth
+    - Color: DWAA (lossy)
+
+
 
 # Courses Completed
 
