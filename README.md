@@ -1,5 +1,20 @@
 # 2025 - 2026 Blender Notes
 
+# Render Settings
+
+### Regular Images
+
+- Make sure right GPU enabled
+  - Edit > Preferences > System
+  - Use "OptiX" for new RTX cards
+  - Checkbox GPU
+  - Checkbox CPU for small gain
+
+### Animations
+
+- Persistent Data
+  = 
+
 # Courses Completed
 
 - YouTube
