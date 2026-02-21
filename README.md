@@ -9,11 +9,27 @@
   - Use "OptiX" for new RTX cards
   - Checkbox GPU
   - Checkbox CPU for small gain
+- Denoise
+  - Properties > Render > Sampling > Viewport/Render 
+  - Enable Denoise
+  - Set to OptiX / Albedo and Normal
+- Max Subdivisions
+  - Properties > Render > Simplify
+  - Check Box
+  - Set Max Subdivision to 3-ish?
+  - Didn't make a render change if image didn't have high subdivisions
+- Texture Limit
+  - Properties > Render > Simplify > Render
+  - Set limit to 2048, should never be higher
 
 ### Animations
 
 - Persistent Data
-  = 
+  - Properties > Render > Performance > Final Render > Persistent Data
+- Culling
+  - Properties > Simplify > Culling
+  - Enable both
+  - Won't render things outside of the camera frame
 
 # Courses Completed
 
