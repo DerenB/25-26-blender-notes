@@ -1,5 +1,14 @@
 # Cloth
 
+
+# Cloth Defaults
+
+- Rubber
+  - 
+
+
+
+
 # Hanging Towel Tutorial
 
 - Add Plane
@@ -65,6 +74,37 @@
 - DON'T add before the cloth
   - Will add too many vertices to simulate
 
+
+
+# Wind
+
+- Add Wind Object
+  - `SHIFT + A` > Forcefield > Wind
+- Location doesn't matter
+  - The wind object can be anywhere in the scene
+  - The wind will blow in the direction of the arrow
+- Set Wind Strength
+  - select wind
+  - physics properties
+  - Set "Strength"
+- Noise 
+  - can change noise for more variance
+
+
+
+# Animation
+
+- Auto Key Frame
+  - Can click the little record button to turn on auto key frame
+  - Anytime the object is transformed, it adds a key frame
+
+
+
+# Friction
+
+- Friction can make the cloth less "slippery"
+- Enabled in the self collision section
+- Max is 80
 
 
 
