@@ -1,10 +1,31 @@
 # Cloth
 
 
-# Cloth Defaults
+# Simple Cloth
 
-- Rubber
-  - 
+- Subdivide Plane ~ 35 to 75 times
+- Unwrap in UV Edit
+  - UV Edit Tab
+  - Select All
+  - U > Unwrap Angle Based
+- Add Cloth Physics
+- Simple Settings:
+  - Quality Steps: 10-15
+  - Physical Properties
+    - Vertex Mass: 0.3 - 0.5
+  - Stiffness
+    - Bending: Higher Number, less bending
+  - Collisions
+    - Quality: 15
+    - Object Collisions
+      - Distance: ~ 0.005
+    - Self Collisions
+      - Distance: ~0.003
+      - Increase Friction for slower/grippy fabric (max 80)
+- Modifier Order:
+  - Cloth Physics
+  - Solidify
+  - Subdivision
 
 
 
