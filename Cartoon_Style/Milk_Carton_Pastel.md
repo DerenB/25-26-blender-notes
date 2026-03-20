@@ -31,6 +31,17 @@
 
 
 
+# Secondary Outline
+
+- Duplicate the object
+- Apply solidify modifier
+  - Delete any other modifiers
+- Delete interior faces
+- Clean up model
+- Add Wireframe Modifier
+- Adjust Thickness
+
+
 
 
 
