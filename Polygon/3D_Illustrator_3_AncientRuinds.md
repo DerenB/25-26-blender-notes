@@ -37,6 +37,28 @@
 
 
 
+# Rocks and Tiles
+
+- Create Rocks and Tiles
+
+
+
+# Terrain
+
+- Extrude terrain plane down
+  - Check/fix normals `shift n`
+- River Bed
+  - Select 4 middle rows
+  - Extrude down
+  - delete front/back faces
+- Random Editing
+  - Turn on proportional editing `o`
+  - Set to random
+  - Drag around until it looks good
+- Triangulate terrain `ctrl t`
+
+
+
 
 
 
