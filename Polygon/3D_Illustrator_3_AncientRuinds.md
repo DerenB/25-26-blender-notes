@@ -59,6 +59,16 @@
 
 
 
+# Water / Waterfall
+
+- Add a plane
+- Shape to width and length
+- Extrude
+- Select top surface and add to vertex group
+- Triangulate 
+
+
+
 
 
 
